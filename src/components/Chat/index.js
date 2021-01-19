@@ -12,6 +12,8 @@ const Chat = () => {
     return (
         <div id="chat">
             {chatJSX}
+            <input placeholder="Votre message" />
+            <button type="button">Envoyer</button>
         </div>
     );
 };

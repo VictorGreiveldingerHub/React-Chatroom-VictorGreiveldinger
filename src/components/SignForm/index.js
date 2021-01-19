@@ -4,7 +4,9 @@ import React from 'react';
 const SignForm = () => {
     return (
         <form>
+            <span>Pseudo :</span>
             <input placeholder="Saisir un pseudo" />
+            <button type="button">Entrer dans le chat</button>
         </form>
     );
 };
