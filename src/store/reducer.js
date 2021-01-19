@@ -1,5 +1,5 @@
 const initialState = {
-  nickname: '',
+  nickname: 'Victor',
   users: [
     {nickname: 'jd'},
     {nickname: 'jeanData'}

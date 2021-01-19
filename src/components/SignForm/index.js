@@ -4,8 +4,16 @@ import React from 'react';
 const SignForm = () => {
     return (
         <form>
-            <span>Pseudo :</span>
-            <input placeholder="Saisir un pseudo" />
+            <label>Pseudo
+                <input
+                    type="text"
+                    className="chat-login"
+                    value="salut"
+                    onChange={(evt) => {
+                        console.log(evt.target.value)
+                    }}
+                />
+            </label>
             <button type="button">Entrer dans le chat</button>
         </form>
     );
